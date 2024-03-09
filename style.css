@@ -1,0 +1,85 @@
+
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+
+.product {font-size: 12px;
+
+}
+.color{
+    background-color: black;
+   display : inline-block;
+    width: 20px;
+    height: 20px;
+}
+.color-red{
+    background-color: red;
+   
+    width: 20px;
+    height: 20px;
+}
+.color-blue{
+    background-color: blue;
+    
+    width: 20px;
+    height: 20px;
+}
+.color-pink{
+    background-color: pink;
+    
+    width: 20px;
+    height: 20px;
+}
+.color-yellow{
+    background-color: rgb(159, 194, 32);
+    
+    width: 20px;
+    height: 20px;
+}
+.card {
+    width:100% ;
+    background: black;
+    color: white;
+    font-weight: bolder;
+    cursor:pointer;
+    text-transform: uppercase;
+}
+.card:hover{
+   background-color: green;
+   color: red; 
+}
+.book{
+    float: left;
+width: 200px;
+margin-left: 7px;
+
+}
+
+.pen{
+    float: right;
+    width: 300px;
+
+}
+.pic{
+    float: left;
+}
+.border{
+    width: 800px;
+border: 4px solid black;
+}
+.pencile{
+    float: right;
+    font-size: medium; 
+color: red;
+    
+}
+.prize{
+    float: left;
+    
+}
+.cl{
+    clear: both;
+    
+}
